@@ -7,9 +7,9 @@
   <body>
     <?php
 class Student{
-var $name;
-var $age;
-var $grade;
+public $name;
+public $age;
+public $grade;
 function __construct($name,$age,$grade){
 $this->name=$name;
 $this->age=$age;
